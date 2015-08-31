@@ -1,0 +1,1 @@
+<a href="#"><img src="[field:litpic/]" border="0" /></a>

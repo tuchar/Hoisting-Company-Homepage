@@ -1,0 +1,1 @@
+picarr[[field:global.autoindex/]]  = "[field:litpic/]";

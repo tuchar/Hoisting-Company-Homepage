@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("global","",319,345);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",389,419);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",456,483);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",501,533);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",620,652);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",714,746);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("global","",1457,1484);
+$z[6][4]['name']="cfg_basehost";
+$z[7]=Array("include","",1607,1644);
+$z[7][4]['filename']="header.htm";
+$z[8]=Array("include","",1649,1684);
+$z[8][4]['filename']="list.htm";
+$z[9]=Array("global","",2157,2184);
+$z[9][4]['name']="cfg_basehost";
+$z[10]=Array("global","",3637,3664);
+$z[10][4]['name']="cfg_basehost";
+$z[11]=Array("arclist","\r\n            <table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\r\n              <tr>\r\n                <td height=\"26\"><span style=\"float:right\">[[field:pubdate function=\"GetDateMK(@me)\"/]]&nbsp;&nbsp;</span>&nbsp;&nbsp;<img src=\"/templets/default/images/1_24_02.jpg\" width=\"7\" height=\"7\" />&nbsp;&nbsp;<a href=\"[field:arcurl /]\" title=\"[field:title /]\">[field:title /]</a></td>\r\n              </tr>\r\n            </table>\r\n            ",4020,4542);
+$z[11][4]['titlelen']="44";
+$z[11][4]['row']="6";
+$z[11][4]['typeid']="7";
+$z[12]=Array("arclist","\r\n				<a href=\"[field:arcurl/]\"><img src=\"[field:litpic/]\" border=\"0\"/></a>\r\n				",5112,5269);
+$z[12][4]['typeid']="8";
+$z[12][4]['limit']="0,4";
+$z[12][4]['orderby']="rand";
+$z[12][4]['flag']="p";
+$z[13]=Array("arclist","\r\n  \r\n            <table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\r\n              <tr>\r\n                <td height=\"26\"><span style=\"float:right\">[[field:pubdate function=\"GetDateMK(@me)\"/]]&nbsp;&nbsp;</span>&nbsp;&nbsp;<img src=\"/templets/default/images/1_24_02.jpg\" width=\"7\" height=\"7\" />&nbsp;&nbsp;<a href=\"[field:arcurl /]\" title=\"[field:title /]\">[field:title /]</a></td>\r\n              </tr>\r\n            </table>\r\n             ",6482,7009);
+$z[13][4]['titlelen']="38";
+$z[13][4]['row']="6";
+$z[13][4]['typeid']="4";
+$z[14]=Array("include","",7246,7283);
+$z[14][4]['filename']="footer.htm";
+
+?>

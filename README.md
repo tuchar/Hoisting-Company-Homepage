@@ -7,3 +7,4 @@
 默认用户名和密码：admin admin888
 数据库配置文件： /data/common.inc.php
 数据表文件：/db.sql
+后台验证码配置文件：/data/safe/inc_safe_config.php

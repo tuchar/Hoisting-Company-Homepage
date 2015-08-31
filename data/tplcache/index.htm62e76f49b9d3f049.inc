@@ -1,0 +1,43 @@
+<?php
+$z[0]=Array("global","",319,345);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",389,419);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",456,483);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",501,533);
+$z[3][4]['name']="cfg_templets_skin";
+$z[4]=Array("global","",620,652);
+$z[4][4]['name']="cfg_templets_skin";
+$z[5]=Array("global","",714,746);
+$z[5][4]['name']="cfg_templets_skin";
+$z[6]=Array("include","",839,876);
+$z[6][4]['filename']="header.htm";
+$z[7]=Array("include","",881,916);
+$z[7][4]['filename']="list.htm";
+$z[8]=Array("myad","",1770,1805);
+$z[8][4]['name']="indexTopBanner1";
+$z[9]=Array("arclist","\r\n            <table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\r\n              <tr>\r\n                <td height=\"26\"><span style=\"float:right\">[[field:pubdate function=\"GetDateMK(@me)\"/]]&nbsp;&nbsp;</span>&nbsp;&nbsp;<img src=\"/templets/html/images/1_24_02.jpg\" width=\"7\" height=\"7\" />&nbsp;&nbsp;<a href=\"[field:arcurl /]\" title=\"[field:title /]\">[field:title /]</a></td>\r\n              </tr>\r\n            </table>\r\n            ",2617,3136);
+$z[9][4]['titlelen']="44";
+$z[9][4]['row']="6";
+$z[9][4]['typeid']="9";
+$z[10]=Array("arclist"," \r\nlinkarr[[field:global.autoindex/]] = \"[field:arcurl/]\"; \r\npicarr[[field:global.autoindex/]]  = \"[field:litpic/]\"; \r\ntextarr[[field:global.autoindex/]] = \"[field:title function='html2text(@me)'/]\"; \r\n",4320,4579);
+$z[10][4]['flag']="c";
+$z[10][4]['row']="5";
+$z[10][4]['typeid']="2";
+$z[11]=Array("arclist","\r\n  \r\n            <table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\r\n              <tr>\r\n                <td height=\"26\"><span style=\"float:right\">[[field:pubdate function=\"GetDateMK(@me)\"/]]&nbsp;&nbsp;</span>&nbsp;&nbsp;<img src=\"/templets/html/images/1_24_02.jpg\" width=\"7\" height=\"7\" />&nbsp;&nbsp;<a href=\"[field:arcurl /]\" title=\"[field:title /]\">[field:title /]</a></td>\r\n              </tr>\r\n            </table>\r\n             ",6315,6839);
+$z[11][4]['titlelen']="38";
+$z[11][4]['row']="6";
+$z[11][4]['typeid']="4";
+$z[12]=Array("arclist","\r\n  \r\n                     \r\n                     <td style=\"padding:0 5px;\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n                         <tr>\r\n                           <td height=\"96\" align=\"center\"><a href=\"[field:arcurl /]\"> <img src=\"[field:picname/]\" width=\"150\" height=\"120\" border=\"0\" style=\"border:1px #cccccc solid; padding:2px;\" /></a> </td>\r\n                         </tr>\r\n                         <tr>\r\n                           <td align=\"center\" class=\"f12\" height=\"24\"><a href=\"[field:arcurl /]\" title=\"[field:title /]\">[field:title /]</a></td>\r\n                         </tr>\r\n                     </table></td>\r\n                     ",8019,8762);
+$z[12][4]['titlelen']="44";
+$z[12][4]['row']="8";
+$z[12][4]['typeid']="3";
+$z[13]=Array("arclist","\r\n                     <td style=\"padding:0 5px;\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n                         <tr>\r\n                           <td height=\"96\" align=\"center\"><a href=\"[field:arcurl /]\"> <img src=\"[field:picname/]\" width=\"150\" height=\"120\" border=\"0\" style=\"border:1px #cccccc solid; padding:2px;\" /></a> </td>\r\n                         </tr>\r\n                         <tr>\r\n                           <td align=\"center\" class=\"f12\" height=\"24\"><a href=\"[field:arcurl /]\" title=\"[field:title /]\">[field:title /]</a></td>\r\n                         </tr>\r\n                     </table></td>\r\n                     ",8845,9561);
+$z[13][4]['titlelen']="44";
+$z[13][4]['row']="8";
+$z[13][4]['typeid']="2";
+$z[14]=Array("include","",10585,10622);
+$z[14][4]['filename']="footer.htm";
+
+?>

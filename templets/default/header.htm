@@ -1,0 +1,97 @@
+  <table width="1001" height="112" border="0" align="center" cellpadding="0" cellspacing="0" background="/templets/html/images/topbg.jpg">
+    <tr>
+      <td width="575" height="93"><div style="padding:15px 0 11px 0;"><img src={dede:global.cfg_templets_skin/}/images/logo.png /></div></td>
+      <td width="575" height="93" align="right"><img src={dede:global.cfg_templets_skin/}/images/fw.png /></td>
+    </tr>
+</table>
+  <table width="1001" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="50"><DIV id=nav>
+<UL>
+  <LI><A href="{dede:global.cfg_cmsurl/}/">网站首页</A></LI>
+  {dede:channel type='top' row='4' currentstyle="<li><a href='~typelink~' >~typename~</a></li>"}
+      	<li><a href='[field:typeurl/]' >[field:typename/]</a></li>
+      	{/dede:channel}
+</UL>
+      </DIV></td>
+    </tr>
+</table>
+</div>
+<div  style="width:1011px; margin:0 auto; background-color:#FFFFFF; padding:5px 5px 15px 5px;">
+  <table width="1001" height="255" border="0" align="center" cellpadding="0" cellspacing="0" class="m1">
+    <tr>
+      <td>
+	  <link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/slide.css">
+		<style>
+		.ck-slide { width: 1010px; height: 320px; margin: 0 auto;}
+		.ck-slide ul.ck-slide-wrapper { height: 320px;}
+		</style>
+		<style>
+* { margin: 0; padding: 0;}
+.menu { position: absolute; left: 0; top: 0; width: 200px; height: 100%; background-color: #ccc; font-family: Consolas,arial,"宋体";}
+.menuc { height: 100%; overflow-x: hidden; overflow-y: auto;}
+.menu span { display: block; height: 100px;}
+.menu a { display: block; height: 40px; margin: 0 0 1px 2px; padding-left: 10px; line-height: 40px; font-size: 14px; color: #333; text-decoration: none;}
+.menu a:hover { background-color: #eee;}
+.menu .cur { color: #000; background-color: #fff !important;}
+.main { height: 100%; margin-left: 200px;}
+.mianc { position: relative; height: 100%; overflow-x: hidden; overflow-y: auto;}
+.main h1 { width: 900px; margin: 40px auto; font: 32px "Microsoft Yahei";}
+.explain, .dowebok-explain { margin-top: 20px; font-size: 14px; text-align: center; color: #f50;}
+
+.vad { margin: 50px 0 5px; font-family: Consolas,arial,宋体,sans-serif; text-align:center;}
+.vad a { display: inline-block; height: 36px; line-height: 36px; margin: 0 5px; padding: 0 50px; font-size: 14px; text-align:center; color:#eee; text-decoration: none; background-color: #222;}
+.vad a:hover { color: #fff; background-color: #000;}
+.thead { width: 728px; height: 90px; margin: 0 auto; border-bottom: 40px solid #fff;}
+
+.code { position: relative; margin-top: 100px; padding-top: 41px;}
+.code h3 { position: absolute; top: 0; z-index: 10; width: 100px; height: 40px; font: 16px/40px "Microsoft Yahei"; text-align: center; cursor: pointer;}
+.code .cur { border: 1px solid #f0f0f0; border-bottom: 1px solid #f8f8f8; background-color: #f8f8f8;}
+.code .h31 { left: 0;}
+.code .h32 { left: 102px;}
+.code .h33 { left: 204px;}
+.code .h34 { left: 306px;}
+.code { width: 900px; margin-left: auto; margin-right: auto;}
+pre { padding: 15px 0; border: 1px solid #f0f0f0; background-color: #f8f8f8;}
+.f-dn { display: none;}
+</style>
+	<div class="ck-slide">
+			<ul class="ck-slide-wrapper">
+				<li>
+					<img src="{dede:global.cfg_templets_skin/}/images/1.jpg" width="1010" height="320"></img>
+				</li>
+				<li style="display:none">
+					<img src="{dede:global.cfg_templets_skin/}/images/2.jpg" width="1010" height="320"></img>
+				</li>
+				<li style="display:none">
+					<img src="{dede:global.cfg_templets_skin/}/images/3.jpg" width="1010" height="320"></img>
+				</li>
+				<li style="display:none">
+					<img src="{dede:global.cfg_templets_skin/}/images/4.jpg" width="1010" height="320"></img>
+				</li>
+			</ul>
+			<a href="javascript:;" class="ctrl-slide ck-prev">上一张</a> <a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
+			<div class="ck-slidebox">
+				<div class="slideWrap">
+					<ul class="dot-wrap">
+						<li class="current">
+						<em>1</em></li>
+						<li><em>2</em></li>
+						<li><em>3</em></li>
+						<li><em>4</em></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- js -->
+		<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.8.3.min.js"></script>
+		<script src="{dede:global.cfg_templets_skin/}/js/slide.js"></script>
+		<script>
+			$('.ck-slide').ckSlide({
+				autoPlay: true
+			});
+		</script>
+    </td>
+    </tr>
+</table>

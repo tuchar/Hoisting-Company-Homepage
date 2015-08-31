@@ -1,0 +1,32 @@
+<?php
+$varlist = "cfg_webname,channellist,cfg_templeturl,newartlist";
+ConvertCharset($varlist);
+$pageBody = '<'.'?xml version="1.0" encoding="UTF-8" ?'.">\r\n";
+$pageBody .= "<!DOCTYPE wml PUBLIC '-//WAPFORUM//DTD WML 1.1//EN' 'http://www.wapforum.org/DTD/wml_1.1.xml'>
+<wml>
+
+  <card id='main' title='{$cfg_webname}'>
+		
+		<p><img src='{$cfg_templeturl}/wap/logo.png' alt='{$cfg_webname}' /></p>
+				<p>
+                <a href='{$cfg_cmspath}/wap.php'>主页</a>
+                {$channellist}
+                </p>
+		
+		<p><img src='{$cfg_templeturl}/wap/hr.gif' alt='sp line' /></p>
+		
+		<p>本公司是集起重、吊装、租凭于一体的服务型公司。自公司成立以来，曾为大竹县多家企业、单位及个人安装搬运各种大型设备。公司备有8~220吨吊车和起重设备，是一家设备先进，技术精湛，作风过硬，力量雄厚的专业起重队伍。公司本着“专业服务，合理利润，顾客满意，追求完美”的经营理念，围绕“快捷，真诚，高效”的服务宗旨，极力开拓市场，为社会提供“时间满意，质量满意，态度满意”的优质服务。热忱欢迎新老客户惠顾！</p>
+		<p>欢迎拨打我们的服务热线：</p>
+		<p>13982823996&nbsp;&nbsp;&nbsp;&nbsp;0818-6104239</p>
+		
+		<p><img src='{$cfg_templeturl}/wap/hr.gif' alt='sp line' /></p>
+		
+		<p>
+		<a href='{$cfg_basehost}'>大竹县竹海吊装服务有限公司</a>
+	    </p>
+		<p>当前时间: {$curtime}</p>
+  </card>
+  
+</wml>
+";
+?>
